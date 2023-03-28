@@ -1,0 +1,41 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Gliff Test 2" ] },
+    "homepage": [
+      {
+        "id": "https://vimeo.com/630436819",
+        "type": "Text",
+        "label": { "en": [ "Gliff Test 2" ] },
+        "format": "text/html"
+      }
+    ],
+    "items": [
+      {
+        "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 240.0,
+        "items": [
+          {
+            "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://alabama.box.com/shared/static/t0ik9ps9d5d2zkb8p62qty4ot13zwu5q.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 240.0
+                },
+                "target": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
