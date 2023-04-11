@@ -11,6 +11,13 @@
         "format": "text/html"
       }
     ],
+    "provider": [
+      {
+        "id": "https://vimeo.com/",
+        "type": "Agent",
+        "label": { "en": [ "Vimeo" ] }
+      }
+    ],
     "items": [
       {
         "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/canvas",
