@@ -23,6 +23,16 @@
         "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/canvas",
         "type": "Canvas",
         "duration": 240.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://rebsalzer.github.io/gliff-test2/annotations/gliff-test-2-canvas-1-test-layer.json",
+            "label": {
+              "none": ["test layer"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/paintings",

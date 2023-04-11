@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://rebsalzer.github.io/gliff-test2/annotations/gliff-test-2-canvas-1-test-layer.json",
+  "type": "AnnotationPage",
+  "label": "test layer",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "gliff-test-2-canvas-1-test-layer-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "test annotation",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://rebsalzer.github.io/gliff-test2/gliff-test-2/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "3900,67.0"
+        }
+      }
+    }
+  ]
+}
