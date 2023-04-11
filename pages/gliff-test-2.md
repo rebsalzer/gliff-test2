@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: aviary
 title: Gliff Test 2
 manifest_name: gliff-test-2
 permalink: gliff-test-2
